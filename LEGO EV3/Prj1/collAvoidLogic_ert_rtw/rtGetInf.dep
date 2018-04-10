@@ -1,0 +1,11 @@
+rtGetInf.o rtGetInf.o: rtGetInf.c rtGetInf.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\lib\gcc\arm-none-linux-gnueabi\4.4.1\include/stddef.h \
+ rtwtypes.h rt_nonfinite.h
+
+rtGetInf.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\lib\gcc\arm-none-linux-gnueabi\4.4.1\include/stddef.h:
+
+rtwtypes.h:
+
+rt_nonfinite.h:

@@ -1,0 +1,51 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["control.c:45c17"]=1;
+    this.traceFlag["control.c:88c23"]=1;
+    this.traceFlag["control.c:89c25"]=1;
+    this.traceFlag["control.c:89c28"]=1;
+    this.traceFlag["control.c:108c23"]=1;
+    this.traceFlag["control.c:109c25"]=1;
+    this.traceFlag["control.c:109c28"]=1;
+    this.traceFlag["control.c:130c17"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["control.c:38"]=1;
+    this.lineTraceFlag["control.c:45"]=1;
+    this.lineTraceFlag["control.c:47"]=1;
+    this.lineTraceFlag["control.c:50"]=1;
+    this.lineTraceFlag["control.c:53"]=1;
+    this.lineTraceFlag["control.c:57"]=1;
+    this.lineTraceFlag["control.c:60"]=1;
+    this.lineTraceFlag["control.c:63"]=1;
+    this.lineTraceFlag["control.c:69"]=1;
+    this.lineTraceFlag["control.c:72"]=1;
+    this.lineTraceFlag["control.c:79"]=1;
+    this.lineTraceFlag["control.c:87"]=1;
+    this.lineTraceFlag["control.c:88"]=1;
+    this.lineTraceFlag["control.c:89"]=1;
+    this.lineTraceFlag["control.c:91"]=1;
+    this.lineTraceFlag["control.c:94"]=1;
+    this.lineTraceFlag["control.c:98"]=1;
+    this.lineTraceFlag["control.c:104"]=1;
+    this.lineTraceFlag["control.c:107"]=1;
+    this.lineTraceFlag["control.c:108"]=1;
+    this.lineTraceFlag["control.c:109"]=1;
+    this.lineTraceFlag["control.c:111"]=1;
+    this.lineTraceFlag["control.c:114"]=1;
+    this.lineTraceFlag["control.c:118"]=1;
+    this.lineTraceFlag["control.c:124"]=1;
+    this.lineTraceFlag["control.c:130"]=1;
+    this.lineTraceFlag["control.c:131"]=1;
+    this.lineTraceFlag["control.c:180"]=1;
+    this.lineTraceFlag["control.c:184"]=1;
+    this.lineTraceFlag["control.c:189"]=1;
+    this.lineTraceFlag["control.c:192"]=1;
+    this.lineTraceFlag["control.c:199"]=1;
+    this.lineTraceFlag["control.c:203"]=1;
+    this.lineTraceFlag["control.c:208"]=1;
+    this.lineTraceFlag["control.c:211"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
