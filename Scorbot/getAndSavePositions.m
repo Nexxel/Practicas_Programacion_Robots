@@ -12,7 +12,7 @@ function [ positions, gripper ] = getAndSavePositions( scorbot )
     %% Save positions
     ok = input('Introduce 1 to save these positions and 0 in other case: ');
     if ok == 1
-        fichero_output = input('Introduce the name of the file where you want to save the positions (Without the .mat), ', 's');
+        fichero_output = input('Introduce the name of the file where you want to save the positions (Without the .mat): ', 's');
         fichero_output = strcat(fichero_output, '.mat');
         save(fichero_output, positions, gripper);
     end
