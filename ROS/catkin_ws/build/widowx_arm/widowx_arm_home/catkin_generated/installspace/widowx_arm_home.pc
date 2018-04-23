@@ -1,0 +1,8 @@
+prefix=/home/viki/catkin_ws/install
+
+Name: widowx_arm_home
+Description: Description of widowx_arm_home
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/viki/catkin_ws/install/lib 
+Requires: 
