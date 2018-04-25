@@ -1,0 +1,13 @@
+rt_nonfinite.o rt_nonfinite.o: rt_nonfinite.c rt_nonfinite.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\lib\gcc\arm-none-linux-gnueabi\4.4.1\include/stddef.h \
+ rtwtypes.h rtGetNaN.h rtGetInf.h
+
+rt_nonfinite.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\lib\gcc\arm-none-linux-gnueabi\4.4.1\include/stddef.h:
+
+rtwtypes.h:
+
+rtGetNaN.h:
+
+rtGetInf.h:
