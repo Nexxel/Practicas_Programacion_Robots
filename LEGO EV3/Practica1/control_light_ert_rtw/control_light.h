@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'control_light'.
  *
- * Model version                  : 1.35
+ * Model version                  : 1.56
  * Simulink Coder version         : 8.11 (R2016b) 25-Aug-2016
- * C/C++ source code generated on : Wed Apr 04 14:35:23 2018
+ * C/C++ source code generated on : Wed Apr 25 23:15:11 2018
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM 9
@@ -19,6 +19,7 @@
 
 #ifndef RTW_HEADER_control_light_h_
 #define RTW_HEADER_control_light_h_
+#include <math.h>
 #include <string.h>
 #include <stddef.h>
 #ifndef control_light_COMMON_INCLUDES_
@@ -40,9 +41,30 @@
 # define rtmSetErrorStatus(rtm, val)   ((rtm)->errorStatus = (val))
 #endif
 
+#ifndef rtmGetStopRequested
+# define rtmGetStopRequested(rtm)      ((rtm)->Timing.stopRequestedFlag)
+#endif
+
+#ifndef rtmSetStopRequested
+# define rtmSetStopRequested(rtm, val) ((rtm)->Timing.stopRequestedFlag = (val))
+#endif
+
+#ifndef rtmGetStopRequestedPtr
+# define rtmGetStopRequestedPtr(rtm)   (&((rtm)->Timing.stopRequestedFlag))
+#endif
+
 #ifndef rtmGetT
 # define rtmGetT(rtm)                  (rtmGetTPtr((rtm))[0])
 #endif
+
+/* Block states (auto storage) for system '<Root>' */
+typedef struct {
+  real_T times[2000];                  /* '<Root>/MATLAB Function' */
+  real_T intensities[2000];            /* '<Root>/MATLAB Function' */
+  real_T counter;                      /* '<Root>/MATLAB Function' */
+  boolean_T eml_autoflush[20];         /* '<Root>/MATLAB Function' */
+  FILE * eml_openfiles[20];            /* '<Root>/MATLAB Function' */
+} DW_control_light_T;
 
 /* Constant parameters (auto storage) */
 typedef struct {
@@ -67,10 +89,14 @@ struct tag_RTM_control_light_T {
     time_T stepSize0;
     uint32_T clockTick1;
     SimTimeStep simTimeStep;
+    boolean_T stopRequestedFlag;
     time_T *t;
     time_T tArray[2];
   } Timing;
 };
+
+/* Block states (auto storage) */
+extern DW_control_light_T control_light_DW;
 
 /* Constant parameters (auto storage) */
 extern const ConstP_control_light_T control_light_ConstP;

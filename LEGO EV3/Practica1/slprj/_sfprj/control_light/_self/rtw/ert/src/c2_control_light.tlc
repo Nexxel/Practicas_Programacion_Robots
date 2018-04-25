@@ -7,11 +7,45 @@
 %endfunction
 %function ChartDataMap(block, system) void
   %createrecord ChartDataElements {\
-    NumChartData   0 \
+    NumChartData   5 \
     ChartDataDefaults {\
       RecordType   "ChartData"\
       Dimensions   []\
       IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "times"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      Dimensions   [2000]\
+    }\
+    ChartData {\
+      Name         "intensities"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      Dimensions   [2000]\
+    }\
+    ChartData {\
+      Name         "counter"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "eml_openfiles"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      Dimensions   [20]\
+    }\
+    ChartData {\
+      Name         "eml_autoflush"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      Dimensions   [20]\
     }\
   }
   %return ChartDataElements

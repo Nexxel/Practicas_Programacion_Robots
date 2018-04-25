@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'control_light'.
  *
- * Model version                  : 1.35
+ * Model version                  : 1.56
  * Simulink Coder version         : 8.11 (R2016b) 25-Aug-2016
- * C/C++ source code generated on : Wed Apr 04 14:35:23 2018
+ * C/C++ source code generated on : Wed Apr 25 23:15:11 2018
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM 9
@@ -20,11 +20,6 @@
 #ifndef RTW_HEADER_rtmodel_h_
 #define RTW_HEADER_rtmodel_h_
 #include "control_light.h"
-
-/* Macros generated for backwards compatibility  */
-#ifndef rtmGetStopRequested
-# define rtmGetStopRequested(rtm)      ((void*) 0)
-#endif
 #endif                                 /* RTW_HEADER_rtmodel_h_ */
 
 /*

@@ -28,6 +28,14 @@ ert_main.o ert_main.o: ert_main.c \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/pthreadtypes.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/alloca.h \
  control_light.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/math.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_val.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_valf.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_vall.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/inf.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/nan.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/mathdef.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/mathcalls.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/string.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/xlocale.h \
  rtwtypes.h C:/PROGRA~1/MATLAB/R2016b/simulink/include/rtw_continuous.h \
@@ -140,6 +148,22 @@ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrse
 C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/alloca.h:
 
 control_light.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/math.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_val.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_valf.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_vall.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/inf.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/nan.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/mathdef.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/mathcalls.h:
 
 C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/string.h:
 

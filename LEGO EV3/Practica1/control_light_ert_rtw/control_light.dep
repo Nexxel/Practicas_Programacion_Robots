@@ -1,10 +1,18 @@
 control_light.o control_light.o: control_light.c control_light.h \
- C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/string.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/math.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/features.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/predefs.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/sys/cdefs.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/wordsize.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/gnu/stubs.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_val.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_valf.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_vall.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/inf.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/nan.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/mathdef.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/mathcalls.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/string.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\lib\gcc\arm-none-linux-gnueabi\4.4.1\include/stddef.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/xlocale.h \
  rtwtypes.h C:/PROGRA~1/MATLAB/R2016b/simulink/include/rtw_continuous.h \
@@ -39,11 +47,19 @@ control_light.o control_light.o: control_light.c control_light.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/asm-generic/int-ll64.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcecode_lmstypes.instrset\EV3Source/lmstypes.h \
  C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcecode_bytecodes.instrset\EV3Source/bytecodes.h \
- control_light_types.h control_light_private.h
+ control_light_types.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/stdio.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/libio.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/_G_config.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/wchar.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\lib\gcc\arm-none-linux-gnueabi\4.4.1\include/stdarg.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/stdio_lim.h \
+ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/sys_errlist.h \
+ control_light_private.h
 
 control_light.h:
 
-C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/string.h:
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/math.h:
 
 C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/features.h:
 
@@ -54,6 +70,22 @@ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrse
 C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/wordsize.h:
 
 C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/gnu/stubs.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_val.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_valf.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/huge_vall.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/inf.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/nan.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/mathdef.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/mathcalls.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/string.h:
 
 C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\lib\gcc\arm-none-linux-gnueabi\4.4.1\include/stddef.h:
 
@@ -126,5 +158,19 @@ C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcecode_lmstypes.
 C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcecode_bytecodes.instrset\EV3Source/bytecodes.h:
 
 control_light_types.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/stdio.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/libio.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/_G_config.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/wchar.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\lib\gcc\arm-none-linux-gnueabi\4.4.1\include/stdarg.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/stdio_lim.h:
+
+C:\ProgramData\MATLAB\SupportPackages\R2016b\3P.instrset\ev3sourcerylite.instrset\CodeSourcery\arm-none-linux-gnueabi\libc\usr\include/bits/sys_errlist.h:
 
 control_light_private.h:

@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'control_light'.
  *
- * Model version                  : 1.35
+ * Model version                  : 1.56
  * Simulink Coder version         : 8.11 (R2016b) 25-Aug-2016
- * C/C++ source code generated on : Wed Apr 04 14:35:23 2018
+ * C/C++ source code generated on : Wed Apr 25 23:15:11 2018
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM 9
@@ -44,13 +44,15 @@ unsigned long threadJoinStatus[8];
 int terminatingmodel = 0;
 void *baseRateTask(void *arg)
 {
-  runModel = (rtmGetErrorStatus(control_light_M) == (NULL));
+  runModel = (rtmGetErrorStatus(control_light_M) == (NULL)) &&
+    !rtmGetStopRequested(control_light_M);
   while (runModel) {
     sem_wait(&baserateTaskSem);
     control_light_step();
 
     /* Get model outputs here */
-    runModel = (rtmGetErrorStatus(control_light_M) == (NULL));
+    runModel = (rtmGetErrorStatus(control_light_M) == (NULL)) &&
+      !rtmGetStopRequested(control_light_M);
     runModel = runModel && !getBackButtonValue();
   }
 
