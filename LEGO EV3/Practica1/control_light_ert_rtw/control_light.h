@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'control_light'.
  *
- * Model version                  : 1.56
+ * Model version                  : 1.66
  * Simulink Coder version         : 8.11 (R2016b) 25-Aug-2016
- * C/C++ source code generated on : Wed Apr 25 23:15:11 2018
+ * C/C++ source code generated on : Wed Apr 25 23:43:27 2018
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM 9
@@ -59,8 +59,8 @@
 
 /* Block states (auto storage) for system '<Root>' */
 typedef struct {
-  real_T times[2000];                  /* '<Root>/MATLAB Function' */
-  real_T intensities[2000];            /* '<Root>/MATLAB Function' */
+  real_T times[5000];                  /* '<Root>/MATLAB Function' */
+  real_T intensities[5000];            /* '<Root>/MATLAB Function' */
   real_T counter;                      /* '<Root>/MATLAB Function' */
   boolean_T eml_autoflush[20];         /* '<Root>/MATLAB Function' */
   FILE * eml_openfiles[20];            /* '<Root>/MATLAB Function' */

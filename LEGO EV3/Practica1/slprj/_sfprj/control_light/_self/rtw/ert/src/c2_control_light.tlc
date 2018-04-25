@@ -18,14 +18,14 @@
       Description  "EmlPersistent"\
       SFName       ""\
       Path         ""\
-      Dimensions   [2000]\
+      Dimensions   [5000]\
     }\
     ChartData {\
       Name         "intensities"\
       Description  "EmlPersistent"\
       SFName       ""\
       Path         ""\
-      Dimensions   [2000]\
+      Dimensions   [5000]\
     }\
     ChartData {\
       Name         "counter"\

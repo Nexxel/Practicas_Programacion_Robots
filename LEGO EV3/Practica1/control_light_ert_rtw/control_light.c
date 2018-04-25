@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'control_light'.
  *
- * Model version                  : 1.56
+ * Model version                  : 1.66
  * Simulink Coder version         : 8.11 (R2016b) 25-Aug-2016
- * C/C++ source code generated on : Wed Apr 25 23:15:11 2018
+ * C/C++ source code generated on : Wed Apr 25 23:43:27 2018
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM 9
@@ -281,10 +281,10 @@ void control_light_step(void)
   /* '<S2>:1:5' if isempty(times) */
   /* '<S2>:1:10' if(current_time < 5) */
   if (Clock < 5.0) {
-    /* '<S2>:1:11' times(counter) = current_time; */
+    /* '<S2>:1:11' times(counter,1) = current_time; */
     control_light_DW.times[(int32_T)control_light_DW.counter - 1] = Clock;
 
-    /* '<S2>:1:11' intensities(counter) = color_intensity; */
+    /* '<S2>:1:11' intensities(counter,1) = color_intensity; */
     control_light_DW.intensities[(int32_T)control_light_DW.counter - 1] = tmp;
 
     /* '<S2>:1:12' ended = 0; */
@@ -316,39 +316,48 @@ void control_light_step(void)
       right_motor = 20;
     }
 
-    /* '<S2>:1:26' pause(10); */
+    /* '<S2>:1:26' counter = counter + 1; */
+    control_light_DW.counter++;
+
+    /* '<S2>:1:27' pause(10); */
   } else if (Clock == 5.0) {
-    /* '<S2>:1:27' elseif(current_time == 5) */
-    /* '<S2>:1:28' left_motor = 0; */
+    /* '<S2>:1:28' elseif(current_time == 5) */
+    /* '<S2>:1:29' times(counter,1) = current_time; */
+    control_light_DW.times[(int32_T)control_light_DW.counter - 1] = 5.0;
+
+    /* '<S2>:1:29' intensities(counter,1) = color_intensity; */
+    control_light_DW.intensities[(int32_T)control_light_DW.counter - 1] = tmp;
+
+    /* '<S2>:1:30' left_motor = 0; */
     left_motor = 0;
 
-    /* '<S2>:1:29' right_motor = 0; */
+    /* '<S2>:1:31' right_motor = 0; */
     right_motor = 0;
 
-    /* '<S2>:1:30' file = fopen('output.txt','w'); */
+    /* '<S2>:1:32' file = fopen('output.txt','w'); */
     Clock = control_light_fopen();
 
-    /* '<S2>:1:31' for i = 1:length(times) */
-    for (ended = 0; ended < 2000; ended++) {
-      /* '<S2>:1:32' fprintf(file, '%f \t %f', times(i,1), intensities(i,1)); */
+    /* '<S2>:1:33' for i = 1:size(times,1) */
+    for (ended = 0; ended < 5000; ended++) {
+      /* '<S2>:1:34' fprintf(file, '%f \t %f', times(i,1), intensities(i,1)); */
       control_light_cfprintf(Clock, control_light_DW.times[ended],
         control_light_DW.intensities[ended]);
     }
 
-    /* '<S2>:1:34' fclose(file); */
+    /* '<S2>:1:36' fclose(file); */
     control_light_fclose(Clock);
 
-    /* '<S2>:1:35' ended = 1; */
+    /* '<S2>:1:37' ended = 1; */
     ended = 1;
   } else {
-    /* '<S2>:1:36' else */
-    /* '<S2>:1:37' left_motor = 0; */
+    /* '<S2>:1:38' else */
+    /* '<S2>:1:39' left_motor = 0; */
     left_motor = 0;
 
-    /* '<S2>:1:38' right_motor = 0; */
+    /* '<S2>:1:40' right_motor = 0; */
     right_motor = 0;
 
-    /* '<S2>:1:39' ended = 0; */
+    /* '<S2>:1:41' ended = 0; */
     ended = 0;
   }
 
@@ -449,10 +458,10 @@ void control_light_initialize(void)
     /* '<S2>:1:6' counter = 1; */
     control_light_DW.counter = 1.0;
 
-    /* '<S2>:1:7' times = zeros(2000,1); */
-    /* '<S2>:1:8' intensities = zeros(2000,1); */
-    memset(&control_light_DW.times[0], 0, 2000U * sizeof(real_T));
-    memset(&control_light_DW.intensities[0], 0, 2000U * sizeof(real_T));
+    /* '<S2>:1:7' times = zeros(5000,1); */
+    /* '<S2>:1:8' intensities = zeros(5000,1); */
+    memset(&control_light_DW.times[0], 0, 5000U * sizeof(real_T));
+    memset(&control_light_DW.intensities[0], 0, 5000U * sizeof(real_T));
 
     /* End of SystemInitialize for MATLAB Function: '<Root>/MATLAB Function' */
   }
