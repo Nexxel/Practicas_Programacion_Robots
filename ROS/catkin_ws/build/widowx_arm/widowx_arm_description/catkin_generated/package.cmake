@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "widowx_arm_description")
+set(widowx_arm_description_MAINTAINER "Jose Rapado García <jmrapado@robotnik.es>")
+set(widowx_arm_description_DEPRECATED "")
+set(widowx_arm_description_VERSION "0.0.0")
+set(widowx_arm_description_BUILD_DEPENDS )
+set(widowx_arm_description_RUN_DEPENDS )
+set(widowx_arm_description_BUILDTOOL_DEPENDS "catkin")

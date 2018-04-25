@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rosR_demos")
+set(rosR_demos_MAINTAINER "André Dietrich <dietrich@ivs.cs.uni-magdeburg.de>")
+set(rosR_demos_DEPRECATED "")
+set(rosR_demos_VERSION "0.0.3")
+set(rosR_demos_BUILD_DEPENDS "rosbag" "genmsg")
+set(rosR_demos_RUN_DEPENDS "rosR" "rosbag")
+set(rosR_demos_BUILDTOOL_DEPENDS "catkin")

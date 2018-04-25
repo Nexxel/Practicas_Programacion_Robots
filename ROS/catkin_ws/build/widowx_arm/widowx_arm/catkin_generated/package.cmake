@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "widowx_arm")
+set(widowx_arm_MAINTAINER "Román Navarro <rnavarro@robotnik.es>")
+set(widowx_arm_DEPRECATED "")
+set(widowx_arm_VERSION "0.0.0")
+set(widowx_arm_BUILD_DEPENDS )
+set(widowx_arm_RUN_DEPENDS "widowx_arm_controller" "widowx_arm_description")
+set(widowx_arm_BUILDTOOL_DEPENDS "catkin")

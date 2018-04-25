@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "widowx_arm_controller")
+set(widowx_arm_controller_MAINTAINER "Román Navarro <rnavarro@robotnik.es>")
+set(widowx_arm_controller_DEPRECATED "")
+set(widowx_arm_controller_VERSION "0.0.0")
+set(widowx_arm_controller_BUILD_DEPENDS "arbotix_python")
+set(widowx_arm_controller_RUN_DEPENDS "arbotix_python")
+set(widowx_arm_controller_BUILDTOOL_DEPENDS "catkin")

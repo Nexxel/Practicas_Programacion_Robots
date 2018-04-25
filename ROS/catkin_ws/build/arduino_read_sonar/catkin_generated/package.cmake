@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "arduino_read_sonar")
+set(arduino_read_sonar_MAINTAINER "viki <viki@todo.todo>")
+set(arduino_read_sonar_DEPRECATED "")
+set(arduino_read_sonar_VERSION "0.0.0")
+set(arduino_read_sonar_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(arduino_read_sonar_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(arduino_read_sonar_BUILDTOOL_DEPENDS "catkin")

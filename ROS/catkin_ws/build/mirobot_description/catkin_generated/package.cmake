@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mirobot_description")
+set(mirobot_description_MAINTAINER "viki <viki@todo.todo>")
+set(mirobot_description_DEPRECATED "")
+set(mirobot_description_VERSION "0.0.0")
+set(mirobot_description_BUILD_DEPENDS "urdf")
+set(mirobot_description_RUN_DEPENDS "urdf")
+set(mirobot_description_BUILDTOOL_DEPENDS "catkin")

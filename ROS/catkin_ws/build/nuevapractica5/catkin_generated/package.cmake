@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "nuevapractica5")
+set(nuevapractica5_MAINTAINER "viki <viki@todo.todo>")
+set(nuevapractica5_DEPRECATED "")
+set(nuevapractica5_VERSION "0.0.0")
+set(nuevapractica5_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(nuevapractica5_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(nuevapractica5_BUILDTOOL_DEPENDS "catkin")

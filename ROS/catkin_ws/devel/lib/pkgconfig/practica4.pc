@@ -1,0 +1,8 @@
+prefix=/home/viki/catkin_ws/devel
+
+Name: practica4
+Description: Description of practica4
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/viki/catkin_ws/devel/lib 
+Requires: 

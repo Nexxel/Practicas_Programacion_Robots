@@ -1,0 +1,8 @@
+prefix=/home/viki/catkin_ws/devel
+
+Name: rosR_demos
+Description: Description of rosR_demos
+Version: 0.0.3
+Cflags: -I/home/viki/catkin_ws/devel/include
+Libs: -L/home/viki/catkin_ws/devel/lib 
+Requires: 

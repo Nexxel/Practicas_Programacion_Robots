@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "widowx_arm_home")
+set(widowx_arm_home_MAINTAINER "Ana+ <anacm@ctima.uma.es>")
+set(widowx_arm_home_DEPRECATED "")
+set(widowx_arm_home_VERSION "0.0.0")
+set(widowx_arm_home_BUILD_DEPENDS "arbotix_python" "roscpp" "rospy" "std_msgs")
+set(widowx_arm_home_RUN_DEPENDS "arbotix_python" "roscpp" "rospy" "std_msgs")
+set(widowx_arm_home_BUILDTOOL_DEPENDS "catkin")

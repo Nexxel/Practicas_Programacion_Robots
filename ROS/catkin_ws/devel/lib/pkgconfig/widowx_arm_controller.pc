@@ -1,0 +1,8 @@
+prefix=/home/viki/catkin_ws/devel
+
+Name: widowx_arm_controller
+Description: Description of widowx_arm_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/viki/catkin_ws/devel/lib 
+Requires: 

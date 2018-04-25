@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "arduino_tester")
+set(arduino_tester_MAINTAINER "viki <viki@todo.todo>")
+set(arduino_tester_DEPRECATED "")
+set(arduino_tester_VERSION "0.0.0")
+set(arduino_tester_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(arduino_tester_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(arduino_tester_BUILDTOOL_DEPENDS "catkin")
