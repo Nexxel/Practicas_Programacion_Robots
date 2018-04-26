@@ -14,5 +14,5 @@ end
 %**************
 % START PROGRAM
 %**************
-offsets = [0 500 500 250];
+offsets = [0 500 1000 250];
 moveScorbot(scorbot, positions, gripper, offsets);

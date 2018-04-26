@@ -9,14 +9,14 @@ function [ ] = moveScorbot( scorbot, positions, gripper, offsets )
     caution_speed = input('Set the caution speed(Less than 15%): ');
     for j = 1:3
         for i = 1:4
-            if j == 3 && i==3 || i==4
+            if j == 3
                 if i==1 || i==2
-                    new_position = scorbot.changePosXYZ(positions(1,i),[positions(1,i).xyz(1)+offsets(j),positions(1,i).xyz(2),positions(1,i).xyz(2)]);
+                    new_position = scorbot.changePosXYZ(positions(1,i),[positions(1,i).xyz(1)+offsets(j),positions(1,i).xyz(2),positions(1,i).xyz(3)]);
                 else
-                     new_position = scorbot.changePosXYZ(positions(1,i),[positions(1,i).xyz(1),positions(1,i).xyz(2)+offsets(j+1),positions(1,i).xyz(2)]);
+                     new_position = scorbot.changePosXYZ(positions(1,i),[positions(1,i).xyz(1),positions(1,i).xyz(2)+offsets(j+1),positions(1,i).xyz(3)+250]);
                 end
-                else
-                    new_position = scorbot.changePosXYZ(positions(1,i),[positions(1,i).xyz(1),positions(1,i).xyz(2)+offsets(j),positions(1,i).xyz(2)]);
+            else
+                new_position = scorbot.changePosXYZ(positions(1,i),[positions(1,i).xyz(1),positions(1,i).xyz(2)+offsets(j),positions(1,i).xyz(3)]);
             end
             if i == 2 || i == 4
                 scorbot.changeSpeed(normal_speed);
