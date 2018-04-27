@@ -5,7 +5,7 @@ function [ ] = moveScorbot( scorbot, positions, gripper, offsets )
     fprintf('Press any key to start picking-and-placing.\n');
     pause;
     % Length of the positions array
-    normal_speed = 100;
+    normal_speed = 15;
     caution_speed = input('Set the caution speed(Less than 15%): ');
     for j = 1:3
         for i = 1:6
