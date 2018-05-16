@@ -1,0 +1,99 @@
+/*
+	Esquema de programa (INCOMPLETO) para hacer algo y tomar datos mientras tanto con
+	el robot de Lego Mindstorms NXT.
+	(C) Juan Antonio Fernandez Madrigal, 2011-2013
+*/
+
+/* ----- Aqui vienen las constantes, solo pongo algunas de ejemplo ----- */
+
+#define MAXMUESTRAS 1300
+#define TAMTOTAL ((MAXMUESTRAS)*(10+1+5+1+5+1+9+1+9+1+9+2))
+#define FICHERO "muestras.log"
+#define d 0.114
+#define r 0.028
+
+/* El lenguaje no admite enums */
+
+/* ----- Aqui las variables globales; solo pongo algunas ---- */
+
+unsigned int nummuestras; /* Numero de muestras ya recogidas. No se admite unsigned solo */
+unsigned long muestras_t[MAXMUESTRAS];	/* Muestras de tiempo */
+unsigned int muestras_a[MAXMUESTRAS]; /* Muestras codificador rueda A */
+unsigned int muestras_c[MAXMUESTRAS]; /* Muestras codificador rueda C */
+
+/* ----- Rutinas auxiliares (codigo completo) ----- */
+
+void ponmensaje(const string &m)
+{
+	ClearScreen();
+	TextOut(0,0,m);
+	Wait(2000);
+}
+
+bool compruebamemoria(void)
+{unsigned long aux;
+ string smu,sti,lin;
+
+	DeleteFile(FICHERO);
+	aux=FreeMemory();
+	smu=NumToStr(aux);
+	sti=NumToStr(TAMTOTAL);
+	lin=StrCat(smu," de ",sti);
+	ponmensaje(lin);
+	if (aux<=TAMTOTAL)
+	{
+		ponmensaje("No hay memoria.");
+		return(false);
+	}
+	return(true);
+}
+
+/* ------ Rutina principal ----- */
+
+task main()
+{long totaux,f,aux;
+ string stt,sta,stc,lin;
+
+	Stop(!compruebamemoria()); /* Se sale si no hay espacio para grabar luego
+								el fichero */
+	nummuestras=0;
+	ponmensaje("Ejecutando...");
+	
+	/* Agregar aqui todo lo que haga falta para gestionar muestras, tiempos,
+	estado de movimiento del robot, etc. */
+
+	while (nummuestras < MAXMUESTRAS-1)
+	{
+		/* Solo como ejemplo: */
+
+		muestras_a[nummuestras]=MotorRotationCount(OUT_A);
+		muestras_c[nummuestras]=MotorRotationCount(OUT_C);
+
+		nummuestras++;
+	}
+	Off(OUT_AC);
+	ponmensaje("Fin muestreo.");
+
+	/* Graba en fichero las muestras */
+
+	byte handle;
+	long res=CreateFile(FICHERO,TAMTOTAL,handle);
+	if (res!=LDR_SUCCESS) ponmensaje("Error create.");
+	else
+	{
+		totaux=0;
+		for (f=0; f<nummuestras; f++)
+		{
+			stt=NumToStr(muestras_t[f]);
+			sta=NumToStr(muestras_a[f]);
+			stc=NumToStr(muestras_c[f]);
+			lin=StrCat(stt," ",sta," ",stc);
+			WriteLnString(handle,lin,aux);
+			totaux+=aux;
+		}
+		CloseFile(handle);
+		stt=NumToStr(totaux);
+		lin=StrCat("bytes:",stt);
+		ponmensaje(lin);
+	}
+}

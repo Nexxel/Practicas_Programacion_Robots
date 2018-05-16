@@ -1,0 +1,62 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   7 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "counter"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "counter_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "isTurning"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "iteration"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "file"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+    }\
+    ChartData {\
+      Name         "eml_openfiles"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      Dimensions   [20]\
+    }\
+    ChartData {\
+      Name         "eml_autoflush"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      Dimensions   [20]\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
