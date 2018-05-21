@@ -2,9 +2,6 @@ function RTW_Sid2UrlHash() {
 	this.urlHashMap = new Array();
 	/* <Root>/Clock */
 	this.urlHashMap["pr5:1"] = "pr5.c:268";
-	/* <Root>/Compare
-To Constant1 */
-	this.urlHashMap["pr5:11"] = "msg=&block=pr5:11";
 	/* <Root>/Left_encoder
  */
 	this.urlHashMap["pr5:9"] = "pr5.c:271,280,407,438";
@@ -19,16 +16,12 @@ To Constant1 */
 	this.urlHashMap["pr5:7:2"] = "pr5.c:279";
 	/* <S1>/Constant */
 	this.urlHashMap["pr5:7:3"] = "pr5.c:278&pr5.h:79&pr5_data.c:26";
-	/* <S2>/u */
-	this.urlHashMap["pr5:11:1"] = "msg=&block=pr5:11:1";
 	/* <S2>/Compare */
 	this.urlHashMap["pr5:11:2"] = "pr5.c:348";
 	/* <S2>/Constant */
 	this.urlHashMap["pr5:11:3"] = "pr5.c:347&pr5.h:82&pr5_data.c:29";
-	/* <S2>/y */
-	this.urlHashMap["pr5:11:4"] = "msg=&block=pr5:11:4";
 	/* <S3>/Data Type Conversion */
-	this.urlHashMap["pr5:2:114"] = "msg=&block=pr5:2:114";
+	this.urlHashMap["pr5:2:114"] = "msg=rtwMsg_CodeGenerationReducedBlock&block=pr5:2:114";
 	/* <S3>/Motor */
 	this.urlHashMap["pr5:2:78"] = "pr5.c:334,413,444";
 	/* <S4>:1 */
@@ -74,7 +67,7 @@ To Constant1 */
 	/* <S4>:1:29 */
 	this.urlHashMap["pr5:6:1:29"] = "pr5.c:330";
 	/* <S5>/Data Type Conversion */
-	this.urlHashMap["pr5:3:114"] = "msg=&block=pr5:3:114";
+	this.urlHashMap["pr5:3:114"] = "msg=rtwMsg_CodeGenerationReducedBlock&block=pr5:3:114";
 	/* <S5>/Motor */
 	this.urlHashMap["pr5:3:78"] = "pr5.c:340,416,447";
 	this.getUrlHash = function(sid) { return this.urlHashMap[sid];}

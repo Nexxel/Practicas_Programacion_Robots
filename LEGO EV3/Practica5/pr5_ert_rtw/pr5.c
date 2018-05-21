@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'pr5'.
  *
- * Model version                  : 1.55
+ * Model version                  : 1.56
  * Simulink Coder version         : 8.11 (R2016b) 25-Aug-2016
- * C/C++ source code generated on : Wed May 16 14:11:30 2018
+ * C/C++ source code generated on : Mon May 21 13:08:10 2018
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM 9
@@ -313,8 +313,8 @@ void pr5_step(void)
   /* '<S4>:1:22' iteration = iteration + 1; */
   pr5_DW.iteration++;
 
-  /* '<S4>:1:23' if(time - counter > 1000) */
-  if (Clock - pr5_DW.counter > 1000.0) {
+  /* '<S4>:1:23' if(time - counter > 1) */
+  if (Clock - pr5_DW.counter > 1.0) {
     /* '<S4>:1:24' isTurning = ~isTurning; */
     pr5_DW.isTurning = !pr5_DW.isTurning;
 
