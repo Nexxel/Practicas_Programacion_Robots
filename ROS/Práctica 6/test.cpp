@@ -216,8 +216,12 @@ void TestBayesianTracking()
 
 	while (winEKF.isOpen() && !mrpt::system::os::kbhit() )
 	{
-		// COMPLETAR: Actualización de la posición del vehículo usando el modelo cinemático dado en el enunciado
-		
+		x += v * DELTA_TIME * (cos(phi) - sin(phi));
+		y += v * DELTA_TIME * (sin(phi) + cos(phi));
+        phi += w * DELTA_TIME;
+
+		v += 1.0f * DELTA_TIME * cos(t);
+		w -= 0.1f * DELTA_TIME * sin(t);
 		// Simulación de las observaciones con ruido
 		float realBearing = atan2( y,x );
 		float obsBearing = realBearing  + BEARING_SENSOR_NOISE_STD * randomGenerator.drawGaussian1D_normalized();
@@ -365,15 +369,16 @@ void CRangeBearing::OnTransitionModel(
 {
 	// in_u[0] : Delta time
 	// in_out_x: [0]:x  [1]:y  [2]:vx  [3]: vy
-	// COMPLETAR
-
+	inout_x[0] += in_u[0] * inout_x[2];
+	inout_x[1] += in_u[0] * inout_x[3];
 }
 
 void CRangeBearing::OnTransitionJacobian(KFMatrix_VxV  &F) const
 {
 	F.unit(); // crea una matriz identidad
 
-	// COMPLETAR
+	F(0,2) = m_deltaTime;
+	F(1,3) = m_deltaTime;
 }
 
 
@@ -435,8 +440,15 @@ void CRangeBearing::OnObservationJacobians(
 	KFMatrix_OxF &Hy
 	) const
 {
-	// COMPLETAR
+	kftype x = m_xkk[0];
+    kftype y = m_xkk[1];
 
+    Hx.zeros();
+    Hx(0, 0) = -y / (square(x) + square(y));
+    Hx(0, 1) = 1 / (x * (1 + square(y / x)));
+
+    Hx(1, 0) = x / sqrt(square(x) + square(y));
+    Hx(1, 1) = y / sqrt(square(x) + square(y));
 	// Hy: Not used
 }
 
