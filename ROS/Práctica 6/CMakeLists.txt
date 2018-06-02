@@ -1,4 +1,4 @@
-<pre><div class="text_to_html">#-----------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------
 # CMake file for the MRPT example:  /bayesianTracking
 #
 #  Run with "ccmake ." at the root directory, or use it as a template for 
@@ -70,5 +70,3 @@ IF("${CMAKE_PROJECT_NAME}" STREQUAL "MRPT") # Fails if build outside of MRPT pro
 	DeclareAppDependencies(${sampleName} mrpt-base;mrpt-bayes;mrpt-obs;mrpt-gui) # Dependencies
 ENDIF("${CMAKE_PROJECT_NAME}" STREQUAL "MRPT")
 # -------------------------------------------------------------------------
-
-</div></pre>

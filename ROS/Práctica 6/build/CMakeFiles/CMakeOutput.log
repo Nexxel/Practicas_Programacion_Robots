@@ -1,0 +1,314 @@
+The system is: Windows - 10.0.10240 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci�n Generar iniciada: proyecto: CompilerIdC, configuraci�n: Debug Win32 ------
+1>Compilando...
+1>CMakeCCompilerId.c
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Ejecutando evento posterior a la compilaci�n...
+1>CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\cl.exe
+1>El registro de compilaci�n se guard� en el "file://i:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CompilerIdC\Debug\BuildLog.htm"
+1>CompilerIdC - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcproj"
+
+The C compiler identification is MSVC, found in "I:/Robotica/Practica6/build/CMakeFiles/3.11.0-rc1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci�n Generar iniciada: proyecto: CompilerIdCXX, configuraci�n: Debug Win32 ------
+1>Compilando...
+1>CMakeCXXCompilerId.cpp
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Ejecutando evento posterior a la compilaci�n...
+1>CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\cl.exe
+1>El registro de compilaci�n se guard� en el "file://i:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CompilerIdCXX\Debug\BuildLog.htm"
+1>CompilerIdCXX - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcproj"
+
+The CXX compiler identification is MSVC, found in "I:/Robotica/Practica6/build/CMakeFiles/3.11.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: I:/Robotica/Practica6/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_4fcd9"
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci¢n Generar iniciada: proyecto: cmTC_4fcd9, configuraci¢n: Debug Win32 ------
+1>Compilando...
+1>Compilador de optimizaci¢n de C/C++ de 32 bits de Microsoft (R) versi¢n 15.00.21022.08 para 80x86
+1>(C) Microsoft Corporation. Reservados todos los derechos.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTC_4fcd9.dir\Debug\\" /Fd"cmTC_4fcd9.dir\Debug\vc90.pdb" /W3 /c /Zi /TC .\testCCompiler.c
+1>testCCompiler.c
+1>Compilando manifiesto en los recursos...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>El registro de compilaci¢n se guard¢ en el "file://i:\Robotica\Practica6\build\CMakeFiles\CMakeTmp\cmTC_4fcd9.dir\Debug\BuildLog.htm"
+1>cmTC_4fcd9 - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: I:/Robotica/Practica6/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_5f7f7"
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci¢n Generar iniciada: proyecto: cmTC_5f7f7, configuraci¢n: Debug Win32 ------
+1>Compilando...
+1>Compilador de optimizaci¢n de C/C++ de 32 bits de Microsoft (R) versi¢n 15.00.21022.08 para 80x86
+1>(C) Microsoft Corporation. Reservados todos los derechos.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTC_5f7f7.dir\Debug\\" /Fd"cmTC_5f7f7.dir\Debug\vc90.pdb" /W3 /c /Zi /TC "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+1>CMakeCCompilerABI.c
+1>Compilando manifiesto en los recursos...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>El registro de compilaci¢n se guard¢ en el "file://i:\Robotica\Practica6\build\CMakeFiles\CMakeTmp\cmTC_5f7f7.dir\Debug\BuildLog.htm"
+1>cmTC_5f7f7 - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: I:/Robotica/Practica6/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_f5420"
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci¢n Generar iniciada: proyecto: cmTC_f5420, configuraci¢n: Debug Win32 ------
+1>Compilando...
+1>Compilador de optimizaci¢n de C/C++ de 32 bits de Microsoft (R) versi¢n 15.00.21022.08 para 80x86
+1>(C) Microsoft Corporation. Reservados todos los derechos.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTC_f5420.dir\Debug\\" /Fd"cmTC_f5420.dir\Debug\vc90.pdb" /W3 /c /Zi /TP .\testCXXCompiler.cxx
+1>testCXXCompiler.cxx
+1>Compilando manifiesto en los recursos...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>El registro de compilaci¢n se guard¢ en el "file://i:\Robotica\Practica6\build\CMakeFiles\CMakeTmp\cmTC_f5420.dir\Debug\BuildLog.htm"
+1>cmTC_f5420 - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: I:/Robotica/Practica6/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_692ae"
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci¢n Generar iniciada: proyecto: cmTC_692ae, configuraci¢n: Debug Win32 ------
+1>Compilando...
+1>Compilador de optimizaci¢n de C/C++ de 32 bits de Microsoft (R) versi¢n 15.00.21022.08 para 80x86
+1>(C) Microsoft Corporation. Reservados todos los derechos.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTC_692ae.dir\Debug\\" /Fd"cmTC_692ae.dir\Debug\vc90.pdb" /W3 /c /Zi /TP "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+1>CMakeCXXCompilerABI.cpp
+1>Compilando manifiesto en los recursos...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>El registro de compilaci¢n se guard¢ en el "file://i:\Robotica\Practica6\build\CMakeFiles\CMakeTmp\cmTC_692ae.dir\Debug\BuildLog.htm"
+1>cmTC_692ae - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+The system is: Windows - 10.0.10240 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci�n Generar iniciada: proyecto: CompilerIdC, configuraci�n: Debug Win32 ------
+1>Compilando...
+1>CMakeCCompilerId.c
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Ejecutando evento posterior a la compilaci�n...
+1>CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\cl.exe
+1>El registro de compilaci�n se guard� en el "file://i:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CompilerIdC\Debug\BuildLog.htm"
+1>CompilerIdC - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcproj"
+
+The C compiler identification is MSVC, found in "I:/Robotica/Practica6/build/CMakeFiles/3.11.0-rc1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci�n Generar iniciada: proyecto: CompilerIdCXX, configuraci�n: Debug Win32 ------
+1>Compilando...
+1>CMakeCXXCompilerId.cpp
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Ejecutando evento posterior a la compilaci�n...
+1>CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\cl.exe
+1>El registro de compilaci�n se guard� en el "file://i:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CompilerIdCXX\Debug\BuildLog.htm"
+1>CompilerIdCXX - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcproj"
+
+The CXX compiler identification is MSVC, found in "I:/Robotica/Practica6/build/CMakeFiles/3.11.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: I:/Robotica/Practica6/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_d5c7d"
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci¢n Generar iniciada: proyecto: cmTC_d5c7d, configuraci¢n: Debug Win32 ------
+1>Compilando...
+1>Compilador de optimizaci¢n de C/C++ de 32 bits de Microsoft (R) versi¢n 15.00.21022.08 para 80x86
+1>(C) Microsoft Corporation. Reservados todos los derechos.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTC_d5c7d.dir\Debug\\" /Fd"cmTC_d5c7d.dir\Debug\vc90.pdb" /W3 /c /Zi /TC .\testCCompiler.c
+1>testCCompiler.c
+1>Compilando manifiesto en los recursos...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>El registro de compilaci¢n se guard¢ en el "file://i:\Robotica\Practica6\build\CMakeFiles\CMakeTmp\cmTC_d5c7d.dir\Debug\BuildLog.htm"
+1>cmTC_d5c7d - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: I:/Robotica/Practica6/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_8aeb1"
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci¢n Generar iniciada: proyecto: cmTC_8aeb1, configuraci¢n: Debug Win32 ------
+1>Compilando...
+1>Compilador de optimizaci¢n de C/C++ de 32 bits de Microsoft (R) versi¢n 15.00.21022.08 para 80x86
+1>(C) Microsoft Corporation. Reservados todos los derechos.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTC_8aeb1.dir\Debug\\" /Fd"cmTC_8aeb1.dir\Debug\vc90.pdb" /W3 /c /Zi /TC "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+1>CMakeCCompilerABI.c
+1>Compilando manifiesto en los recursos...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>El registro de compilaci¢n se guard¢ en el "file://i:\Robotica\Practica6\build\CMakeFiles\CMakeTmp\cmTC_8aeb1.dir\Debug\BuildLog.htm"
+1>cmTC_8aeb1 - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: I:/Robotica/Practica6/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_86273"
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci¢n Generar iniciada: proyecto: cmTC_86273, configuraci¢n: Debug Win32 ------
+1>Compilando...
+1>Compilador de optimizaci¢n de C/C++ de 32 bits de Microsoft (R) versi¢n 15.00.21022.08 para 80x86
+1>(C) Microsoft Corporation. Reservados todos los derechos.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTC_86273.dir\Debug\\" /Fd"cmTC_86273.dir\Debug\vc90.pdb" /W3 /c /Zi /TP .\testCXXCompiler.cxx
+1>testCXXCompiler.cxx
+1>Compilando manifiesto en los recursos...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>El registro de compilaci¢n se guard¢ en el "file://i:\Robotica\Practica6\build\CMakeFiles\CMakeTmp\cmTC_86273.dir\Debug\BuildLog.htm"
+1>cmTC_86273 - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: I:/Robotica/Practica6/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_78fcb"
+
+Microsoft (R) Visual Studio 9.0.21022.8.
+(C) Microsoft Corp. Reservados todos los derechos.
+1>------ Operaci¢n Generar iniciada: proyecto: cmTC_78fcb, configuraci¢n: Debug Win32 ------
+1>Compilando...
+1>Compilador de optimizaci¢n de C/C++ de 32 bits de Microsoft (R) versi¢n 15.00.21022.08 para 80x86
+1>(C) Microsoft Corporation. Reservados todos los derechos.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTC_78fcb.dir\Debug\\" /Fd"cmTC_78fcb.dir\Debug\vc90.pdb" /W3 /c /Zi /TP "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+1>CMakeCXXCompilerABI.cpp
+1>Compilando manifiesto en los recursos...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Vinculando...
+1>Incrustando manifiesto...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>El registro de compilaci¢n se guard¢ en el "file://i:\Robotica\Practica6\build\CMakeFiles\CMakeTmp\cmTC_78fcb.dir\Debug\BuildLog.htm"
+1>cmTC_78fcb - 0 errores, 0 advertencias
+========== Generar: 1 correctos, 0 incorrectos, 0 actualizados, 0 omitidos ==========
+
+

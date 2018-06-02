@@ -1,4 +1,4 @@
-<pre><div class="text_to_html">/* +---------------------------------------------------------------------------+
+/* +---------------------------------------------------------------------------+
    |          The Mobile Robot Programming Toolkit (MRPT) C++ library          |
    |                                                                           |
    |                       http://www.mrpt.org/                                |
@@ -459,5 +459,3 @@ void CRangeBearing::OnSubstractObservationVectors(KFArray_OBS &A, const KFArray_
 	math::wrapToPiInPlace(A[0]); // The angular component
 }
 
-
-</div></pre>

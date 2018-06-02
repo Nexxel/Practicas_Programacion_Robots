@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="ZERO_CHECK"
+	ProjectGUID="{F06710A4-5C94-3DE4-A18F-4847985159D1}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			IntermediateDirectory="ZERO_CHECK.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AssemblerListingLocation="Debug/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			IntermediateDirectory="ZERO_CHECK.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AssemblerListingLocation="Release/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			IntermediateDirectory="ZERO_CHECK.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AssemblerListingLocation="MinSizeRel/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			IntermediateDirectory="ZERO_CHECK.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AssemblerListingLocation="RelWithDebInfo/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="I:\Robotica\Practica6\build\CMakeFiles\generate.stamp.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HI:/Robotica/Practica6 -BI:/Robotica/Practica6/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file I:/Robotica/Practica6/build/EXAMPLE_bayesianTracking.sln&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Program Files (x86)\mrpt-1.0.2\MRPTConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake&quot;;I:\Robotica\Practica6\CMakeLists.txt;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCXXCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeRCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeSystem.cmake;"
+					Outputs="I:\Robotica\Practica6\build\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HI:/Robotica/Practica6 -BI:/Robotica/Practica6/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file I:/Robotica/Practica6/build/EXAMPLE_bayesianTracking.sln&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Program Files (x86)\mrpt-1.0.2\MRPTConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake&quot;;I:\Robotica\Practica6\CMakeLists.txt;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCXXCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeRCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeSystem.cmake;"
+					Outputs="I:\Robotica\Practica6\build\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HI:/Robotica/Practica6 -BI:/Robotica/Practica6/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file I:/Robotica/Practica6/build/EXAMPLE_bayesianTracking.sln&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Program Files (x86)\mrpt-1.0.2\MRPTConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake&quot;;I:\Robotica\Practica6\CMakeLists.txt;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCXXCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeRCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeSystem.cmake;"
+					Outputs="I:\Robotica\Practica6\build\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HI:/Robotica/Practica6 -BI:/Robotica/Practica6/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file I:/Robotica/Practica6/build/EXAMPLE_bayesianTracking.sln&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Program Files (x86)\mrpt-1.0.2\MRPTConfig.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake&quot;;I:\Robotica\Practica6\CMakeLists.txt;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCXXCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeRCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeSystem.cmake;"
+					Outputs="I:\Robotica\Practica6\build\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

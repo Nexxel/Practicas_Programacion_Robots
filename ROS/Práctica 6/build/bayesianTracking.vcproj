@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="(EXAMPLE) bayesianTracking"
+	ProjectGUID="{061842B6-E474-3AFD-A4A0-6F315D1D8A89}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="I:\Robotica\Practica6\build\Debug"
+			IntermediateDirectory="bayesianTracking.dir\Debug"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"
+				AssemblerListingLocation="Debug/"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"
+				PreprocessorDefinitions="WIN32;_WINDOWS;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"
+				UseFAT32Workaround="true"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "
+				OutputFile="I:\Robotica\Practica6\build\Debug\bayesianTracking.exe"
+				Version="0.0"
+				AdditionalOptions="/machine:X86 /debug"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;C:\Program Files (x86)\mrpt-1.0.2\lib\$(ConfigurationName)&quot;,&quot;C:\Program Files (x86)\mrpt-1.0.2\lib&quot;"
+				ProgramDatabaseFile="I:\Robotica\Practica6\build\Debug/bayesianTracking.pdb"
+				GenerateDebugInformation="true"
+				SubSystem="1"
+				ImportLibrary="I:\Robotica\Practica6\build\Debug\bayesianTracking.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="I:\Robotica\Practica6\build\Release"
+			IntermediateDirectory="bayesianTracking.dir\Release"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"
+				AssemblerListingLocation="Release/"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"
+				UseFAT32Workaround="true"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "
+				OutputFile="I:\Robotica\Practica6\build\Release\bayesianTracking.exe"
+				Version="0.0"
+				AdditionalOptions="/machine:X86"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;C:\Program Files (x86)\mrpt-1.0.2\lib\$(ConfigurationName)&quot;,&quot;C:\Program Files (x86)\mrpt-1.0.2\lib&quot;"
+				ProgramDatabaseFile="I:\Robotica\Practica6\build\Release/bayesianTracking.pdb"
+				SubSystem="1"
+				ImportLibrary="I:\Robotica\Practica6\build\Release\bayesianTracking.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="I:\Robotica\Practica6\build\MinSizeRel"
+			IntermediateDirectory="bayesianTracking.dir\MinSizeRel"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"
+				AssemblerListingLocation="MinSizeRel/"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"
+				UseFAT32Workaround="true"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "
+				OutputFile="I:\Robotica\Practica6\build\MinSizeRel\bayesianTracking.exe"
+				Version="0.0"
+				AdditionalOptions="/machine:X86"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;C:\Program Files (x86)\mrpt-1.0.2\lib\$(ConfigurationName)&quot;,&quot;C:\Program Files (x86)\mrpt-1.0.2\lib&quot;"
+				ProgramDatabaseFile="I:\Robotica\Practica6\build\MinSizeRel/bayesianTracking.pdb"
+				SubSystem="1"
+				ImportLibrary="I:\Robotica\Practica6\build\MinSizeRel\bayesianTracking.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="I:\Robotica\Practica6\build\RelWithDebInfo"
+			IntermediateDirectory="bayesianTracking.dir\RelWithDebInfo"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"
+				AssemblerListingLocation="RelWithDebInfo/"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+
+				AdditionalIncludeDirectories="C:\Program Files (x86)\mrpt-1.0.2\include\mrpt\mrpt-config;C:\Program Files (x86)\mrpt-1.0.2\libs\base\include;C:\Program Files (x86)\mrpt-1.0.2\libs\bayes\include;C:\Program Files (x86)\mrpt-1.0.2\libs\opengl\include;C:\Program Files (x86)\mrpt-1.0.2\libs\obs\include;C:\Program Files (x86)\mrpt-1.0.2\libs\gui\include"				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"
+				UseFAT32Workaround="true"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "
+				OutputFile="I:\Robotica\Practica6\build\RelWithDebInfo\bayesianTracking.exe"
+				Version="0.0"
+				AdditionalOptions="/machine:X86 /debug"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;C:\Program Files (x86)\mrpt-1.0.2\lib\$(ConfigurationName)&quot;,&quot;C:\Program Files (x86)\mrpt-1.0.2\lib&quot;"
+				ProgramDatabaseFile="I:\Robotica\Practica6\build\RelWithDebInfo/bayesianTracking.pdb"
+				GenerateDebugInformation="true"
+				SubSystem="1"
+				ImportLibrary="I:\Robotica\Practica6\build\RelWithDebInfo\bayesianTracking.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="I:\Robotica\Practica6\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule I:/Robotica/Practica6/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HI:/Robotica/Practica6 -BI:/Robotica/Practica6/build --check-stamp-file I:/Robotica/Practica6/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="I:\Robotica\Practica6\CMakeLists.txt;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeSystem.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake&quot;;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\mrpt-1.0.2\MRPTConfig.cmake&quot;;I:\Robotica\Practica6\CMakeLists.txt;"
+					Outputs="I:\Robotica\Practica6\build\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule I:/Robotica/Practica6/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HI:/Robotica/Practica6 -BI:/Robotica/Practica6/build --check-stamp-file I:/Robotica/Practica6/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="I:\Robotica\Practica6\CMakeLists.txt;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeSystem.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake&quot;;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\mrpt-1.0.2\MRPTConfig.cmake&quot;;I:\Robotica\Practica6\CMakeLists.txt;"
+					Outputs="I:\Robotica\Practica6\build\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule I:/Robotica/Practica6/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HI:/Robotica/Practica6 -BI:/Robotica/Practica6/build --check-stamp-file I:/Robotica/Practica6/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="I:\Robotica\Practica6\CMakeLists.txt;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeSystem.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake&quot;;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\mrpt-1.0.2\MRPTConfig.cmake&quot;;I:\Robotica\Practica6\CMakeLists.txt;"
+					Outputs="I:\Robotica\Practica6\build\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule I:/Robotica/Practica6/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HI:/Robotica/Practica6 -BI:/Robotica/Practica6/build --check-stamp-file I:/Robotica/Practica6/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="I:\Robotica\Practica6\CMakeLists.txt;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeSystem.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake&quot;;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCCompiler.cmake;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;I:\Robotica\Practica6\build\CMakeFiles\3.11.0-rc1\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\mrpt-1.0.2\MRPTConfig.cmake&quot;;I:\Robotica\Practica6\CMakeLists.txt;"
+					Outputs="I:\Robotica\Practica6\build\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="I:\Robotica\Practica6\test.cpp">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
